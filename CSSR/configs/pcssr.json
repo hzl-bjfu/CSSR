@@ -1,0 +1,16 @@
+{
+    "inherit" : "./configs/basic.json",
+    "projection_dim" : -1,
+    
+    "category_model" : {
+        "model" : "pcssr",
+        "ae_hidden" : [128],
+        "ae_latent" : 64,
+        "projection_dim" : -1,
+        "gamma" : 0.1,
+        "error_measure" : "L1"
+    },
+    
+    "score" : "R[4]",
+    "integrate_score": "S[0]"
+}

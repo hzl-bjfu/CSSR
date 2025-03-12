@@ -1,0 +1,9 @@
+{
+    "name" : "cifar10_cross",
+    "train" : [
+        {"dataset":"cifar10_cross","convert_class":[0,1,2,3,4,5,6,-1],"keep_class":[0,1,2,3,4,5,6]}
+    ],
+    "test" : [
+        {"dataset":"cifar10_cross","convert_class":[0,1,2,3,4,5,6,-1],"keep_class":[-1,0,1,2,3,4,5,6]}
+    ]
+}
