@@ -1,1 +1,1 @@
-# CSSR
+# Class-Specific Semantic Reconstruction (CSSR)
